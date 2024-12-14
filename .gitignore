@@ -1,0 +1,53 @@
+# Build files
+/build
+/sdkconfig
+/sdkconfig.old
+
+# Compiled object files and binaries
+*.o
+*.d
+*.a
+*.elf
+*.bin
+*.map
+
+# Logs and debug files
+*.log
+
+# Backup and temporary files
+*.bak
+*.swp
+*.tmp
+
+# Python environment files
+venv/
+*.pyc
+__pycache__/
+
+# IDE and Editor settings
+.vscode/
+.idea/
+*.code-workspace
+
+# CMake cache files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# ESP-IDF specific files
+.project
+.cproject
+.settings/
+.clangd
+
+# Auto-generated files by ESP-IDF
+component.mk
+Makefile
+esp-idf/
+components/*/CMakeLists.txt
+components/*/component.mk
+
+# Custom files (if applicable)
+flash_project_args
+partition_table.csv
+
